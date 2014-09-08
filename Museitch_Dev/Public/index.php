@@ -9,7 +9,7 @@
 
 <div id="main">
     <div id="navigation">
-    <h1> Navigation</h1>
+    <h1> Navigation : TEST</h1>
     </div>
     <div id="page">
         <h2>Musitch Development</h2>
