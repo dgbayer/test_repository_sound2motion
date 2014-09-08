@@ -1,0 +1,129 @@
+/* Site Colors:
+ #1A446C - blue grey
+ #689DC1 - light blue
+ #D4E6F4 - very light blue
+ #EEE4B9 - light tan
+ #8D0D19 - burgundy
+*/
+
+
+    @var-one: #1A446C;
+    @var-two: #689DC1;
+    @var-three: #D4E6F4;
+    @var-four: #EEE4B9;
+    @var-five: #8D0D19;
+
+
+html { height: 100%; width: 100%; }
+body {
+    width: 100%; height: 100%;
+    margin: 0; padding: 0; border: 0;
+    font-family: Veranda, Arial, Helvetica, sans-serif;
+    font-size: 10px; line-height: 15px;
+    background: @var-four;
+} 
+
+img { border: none; }
+a { color: @var-five; }
+a:hover { color: @var-one; }
+
+#header {
+    height: 70px;
+    margin: 0; padding: 0; text-align: left;
+    background: @var-one; color: @var-three;
+}
+
+#header h1 { padding: 1em; margin: 0; }
+#main {
+    height: 600px; width: 100%;
+    margin: 0; padding: 0;
+    background: @var-four;
+}
+#footer {
+    clear: both;
+    height: 2em; margin: 0; padding: 1em;
+    text-align: center;
+    background: @var-one; color: @var-three;
+}
+
+//NAVIGATION 
+
+#navigation {
+    float: left;
+    width: 150px; height: 100%;
+    margin: 0; padding: 0 2em;
+    color: @var-three; background: @var-five;
+}
+#navigation a { color: @var-three; text-decoration: none; }
+#navigation a:hover { color: #FFFFFF; }
+ul.subjects {
+    margin: 1em 0; padding-left: 0; list-style: none;
+} 
+ul.pages { padding-left: 2em; list-style: square; }
+.selected { font-weight: bold; }
+
+//PAGE CONTENT 
+
+#page {
+    float: left; height: 100%;
+    padding-left: 2em; vertical-align: top;
+    background: @var-four;
+}
+#page h2 { color: @var-five; margin-top: 1em; }
+#page h3 { color: @var-five; } 
+
+//FORMS
+
+#form {
+	margin-left:10px;
+	align-content:left;
+	text-align:right;
+
+}
+
+#signup_submit_button {
+	-moz-box-shadow:inset 0px 1px 3px 1px #c1ed9c;
+	-webkit-box-shadow:inset 0px 1px 3px 1px #c1ed9c;
+	box-shadow:inset 0px 1px 3px 1px #c1ed9c;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #9dce2c), color-stop(1, #8cb82b) );
+	background:-moz-linear-gradient( center top, #9dce2c 5%, #8cb82b 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#9dce2c', endColorstr='#8cb82b');
+	background-color:#9dce2c;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0;
+	border:6px solid #83c41a;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:24px;
+	font-weight:bold;
+	font-style:normal;
+	height:62px;
+	line-height:62px;
+	width:200px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #689324;
+}
+#signup_submit_button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #8cb82b), color-stop(1, #9dce2c) );
+	background:-moz-linear-gradient( center top, #8cb82b 5%, #9dce2c 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8cb82b', endColorstr='#9dce2c');
+	background-color:#8cb82b;
+}#signup_submit_button:active {
+	position:relative;
+	top:1px;
+}
+/* This button was generated using CSSButtonGenerator.com */
+

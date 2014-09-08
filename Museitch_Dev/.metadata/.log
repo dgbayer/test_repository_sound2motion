@@ -1,0 +1,20 @@
+!SESSION 2014-09-01 13:23:13.076 -----------------------------------------------
+eclipse.buildId=4.4.0.I20140606-1215
+java.version=1.8.0_11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.php.product -keyring /Users/dgbayer/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.php.product -keyring /Users/dgbayer/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.ui 2 0 2014-09-01 13:24:54.530
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-09-01 13:24:54.530
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.php.ui', id='org.eclipse.dltk.ui.edit.text.java.source.quickMenu', categoryId='org.eclipse.jdt.ui.category.source'
+
+!ENTRY org.eclipse.ui 2 0 2014-09-01 13:24:57.747
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-09-01 13:24:57.747
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.php.ui', id='org.eclipse.dltk.ui.edit.text.java.source.quickMenu', categoryId='org.eclipse.jdt.ui.category.source'
+
+!ENTRY org.eclipse.core.net 1 0 2014-09-01 13:25:00.288
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
